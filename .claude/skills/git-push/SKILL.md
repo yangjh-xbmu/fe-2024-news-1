@@ -24,7 +24,7 @@ $ARGUMENTS
 
 3. **执行 git commit**
    - 如 `$ARGUMENTS` 非空，使用 `$ARGUMENTS` 作为 commit message
-   - 如 `$ARGUMENTS` 为空，使用默认 message：`update`
+   - 如 `$ARGUMENTS` 为空，使用 LLM 生成一个简短的 commit message
    - 执行 `git commit -m "<message>"`
 
 4. **执行 git push**
