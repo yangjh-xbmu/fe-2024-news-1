@@ -32,6 +32,8 @@ $ARGUMENTS
    - 如 push 成功，输出 "推送完成：<commit hash> <message>"
    - 如 push 失败，输出错误信息
 
+执行成功后，显示github commit 链接
+
 ## Output style
 
 - 简洁明了
