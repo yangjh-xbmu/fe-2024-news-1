@@ -36,7 +36,7 @@ export async function extractTextWithMinerU(
   const { task_id, file_url } = initData.data;
 
   // Step 2: Upload file to OSS
-  await fetch(file_url, { method: "PUT", body: fileBuffer });
+  await fetch(file_url, { method: "PUT", body: new Uint8Array(fileBuffer) });
 
   // Step 3: Poll for result
   for (let i = 0; i < 60; i++) {
