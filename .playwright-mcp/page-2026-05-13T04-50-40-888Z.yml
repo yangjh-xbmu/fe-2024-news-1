@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "作品集生成器" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "登录" [ref=e6] [cursor=pointer]:
+          - /url: /login
+          - button "登录" [ref=e7]
+        - link "注册" [ref=e8] [cursor=pointer]:
+          - /url: /register
+          - button "注册" [ref=e9]
+  - generic [ref=e12]:
+    - generic [ref=e14]: 注册
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: 姓名
+          - textbox "姓名" [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: 邮箱
+          - textbox "邮箱" [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]: 密码
+          - textbox "密码" [ref=e25]
+      - generic [ref=e26]:
+        - button "注册" [ref=e27]
+        - button "已有账号？登录" [ref=e28]
+  - button "Open Next.js Dev Tools" [ref=e34] [cursor=pointer]:
+    - img [ref=e35]

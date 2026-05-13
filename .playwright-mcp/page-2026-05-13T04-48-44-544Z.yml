@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "作品集生成器" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "登录" [ref=e6] [cursor=pointer]:
+          - /url: /login
+          - button "登录" [ref=e7]
+        - link "注册" [ref=e8] [cursor=pointer]:
+          - /url: /register
+          - button "注册" [ref=e9]
+  - generic [ref=e10]:
+    - heading "课程作业 → 专业作品集" [level=1] [ref=e11]
+    - paragraph [ref=e12]: 上传你的课程作业，AI 自动分析并匹配专业模板。五分钟生成面试官想看的高质量作品集。
+    - generic [ref=e13]:
+      - link "免费开始" [ref=e14] [cursor=pointer]:
+        - /url: /register
+        - button "免费开始" [ref=e15]
+      - link "登录" [ref=e16] [cursor=pointer]:
+        - /url: /login
+        - button "登录" [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: 📤
+        - text: 上传作业
+      - generic [ref=e21]:
+        - generic [ref=e22]: 🤖
+        - text: AI 分析
+      - generic [ref=e23]:
+        - generic [ref=e24]: ✨
+        - text: 一键生成

@@ -1,7 +1,7 @@
 import { db } from "@/lib/db";
 import { notFound } from "next/navigation";
 import { PortfolioRenderer } from "@/components/portfolio/renderer";
-import { Button } from "@/components/ui/button";
+import { PrintButton } from "./print-button";
 
 interface ProjectData {
   id: string; title: string; summary: string; content: string; templateId: string;
@@ -42,7 +42,7 @@ export default async function PortfolioPage({ params }: { params: Promise<{ slug
         )}
         {project.courseName && <p className="text-sm text-slate-400 mt-2">来源课程：{project.courseName}</p>}
         <div className="flex gap-2 mt-6">
-          <Button variant="outline" onClick={() => window.print()}>下载 PDF</Button>
+          <PrintButton />
         </div>
       </div>
     </div>
