@@ -1,3 +1,13 @@
+---
+purpose: 一个基于 Next.js 的新闻聚合与展示平台，支持仪表盘管理、PDF 导出和公开作品集页面。
+status: active
+next_steps: []
+capabilities:
+  - pdf-export
+  - dashboard
+  - portfolio-page
+  - project-management
+---
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
